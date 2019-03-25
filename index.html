@@ -86,6 +86,16 @@ box-sizing: border-box;
         .kampagner {
             display: none;
         }
+
+        .splash img {
+            display: none;
+        }
+
+        .tekstboks img {
+            display: none;
+        }
+
+
     }
 
 
@@ -93,7 +103,7 @@ box-sizing: border-box;
     @media only screen and (min-width: 1200px) {
         .logo img {
             width: 12%;
-            margin-left: 2vw;
+            margin-left: 10vw;
         }
 
         .burgermenu img {
@@ -110,8 +120,14 @@ box-sizing: border-box;
             z-index: 1;
         }
 
-        kampagner img {
+        .splash img {
             width: 100vw;
+            position: absolute;
+        }
+
+        .tekstboks img {
+            position: relative;
+            margin-top: 78.3vh;
         }
 
         h1 {
@@ -147,7 +163,17 @@ box-sizing: border-box;
             <!--            <img src="pics/kampagner.png" alt="kampagner">-->
         </div>
 
-        <img src="pics/splash.jpg" alt="splash">
+        <div class="splash">
+
+            <img src="pics/splash.jpg" alt="splash">
+
+        </div>
+
+        <div class="tekstboks">
+
+            <img src="pics/tekstboks.svg" alt="">
+
+        </div>
 
 
         <div class="socialmedia">
@@ -192,6 +218,8 @@ box-sizing: border-box;
                 <br>Hvis du er den heldige vinder, kontakter vi dig på Facebook, hvor du også får tilsendt præmien.</p>
 
         </div>
+
+
 
 
 
