@@ -76,13 +76,39 @@ box-sizing: border-box;
         color: white;
     }
 
-    .konkurrence img {
+    .socialmedia-blue img {
         width: 23%;
         margin: 5vw 0 0 0;
         margin-left: 70vw;
     }
 
-    . @media only screen and (max-width: 375px) {
+    .selfie {
+        text-align: center;
+    }
+
+    .selfie img {
+        width: 80vw;
+    }
+
+    .konkurrence p {
+        font-family: sans-serif;
+    }
+
+    .advisetekst p {
+        font-family: sans-serif;
+    }
+
+    .portrait {
+        text-align: center;
+    }
+
+    .portrait img {
+        width: 80vw;
+    }
+
+
+
+    @media only screen and (max-width: 375px) {
         .kampagner {
             display: none;
         }
@@ -127,12 +153,59 @@ box-sizing: border-box;
 
         .tekstboks img {
             position: relative;
-            margin-top: 78.3vh;
+            margin-top: 99.3vh;
+            width: 40%;
         }
 
-        h1 {
-            font-size:
+        .socialmedia-blue img {
+            width: 10%;
+            margin-left: 70vw;
+
         }
+
+        .selfie img {
+            width: 30vw;
+            margin: 0vw 0vw 0vw 0vw;
+        }
+
+        .tekst {
+            padding: 0vw 15vw 2vw 15vw;
+        }
+
+        .film {
+            padding: 2vw 15vw 2vw 15vw;
+        }
+
+        .konkurrence {
+            padding: 2vw 15vw 2vw 15vw;
+        }
+
+        .picandtext {
+            display: flex;
+            flex-direction: row-reverse;
+        }
+
+        .konkurrencetekst {
+            margin: 0vw 10vw 10vw 0vw;
+        }
+
+        .portrait img {
+            width: 30vw;
+            margin: 0vw 0vw 0vw 0vw;
+        }
+
+        .advise {
+            padding: 2vw 15vw 2vw 15vw;
+        }
+
+        .advisetekst {
+            margin: 0vw 10vw 10vw 0vw;
+        }
+
+
+
+
+
 
 
     }
@@ -183,9 +256,9 @@ box-sizing: border-box;
         </div>
 
 
-        <div class="container">
+        <div class="container tekst">
 
-            <h1>Hvad skal der til, for at du tager på?</h1>
+            <h1>Hvad skal der til for, at du tager på?</h1>
 
             <p>Der er mange forskellige årsager til, at man vælger at tage cykelhjelmen på. Nogle skal se det gå galt. Nogle gør det for deres nærmeste. Andre tænker sig bare om og passer på sig selv i trafikken. Som tiden går, er det vigtigt at passe på sig selv, specielt i trafikken - derfor er det vigtigt at tage på. </p>
 
@@ -202,20 +275,75 @@ box-sizing: border-box;
 
         <div class="container konkurrence">
 
-            <img src="pics/socialmedia-blue.png" alt="socialmedia-blue">
+            <div class="socialmedia-blue">
+
+                <img src="pics/socialmedia-blue.png" alt="socialmedia-blue">
+
+            </div>
 
             <h1>Tilmeld dig Tag på konkurrencen</h1>
 
-            <img class="portrait" src="pics/portrait.jpg" alt="portrait">
+            <div class="picandtext">
 
-            <p>Har du også taget på? Så kan du nemt tilmelde dig Tag på konkurrencen. Vi udlodder nemlig biografbilletter for to (inkl. 2x stor sodavand og 2x stor popcorn) i en valgfri biograf.
-                <br>
-                <br>Det eneste, du skal gøre, er:
-                <br>- Følg Rådet for Sikker Trafiks facebookside
-                <br>- Læg dit billede op på Facebook eller Instagram
-                <br>- Tag #rådetforsikkertrafik og #tagpå
-                <br>
-                <br>Hvis du er den heldige vinder, kontakter vi dig på Facebook, hvor du også får tilsendt præmien.</p>
+                <div class="selfie">
+
+                    <img class="selfie" src="pics/selfie.jpg" alt="selfie">
+
+                </div>
+
+                <div class="konkurrencetekst">
+
+                    <p>Har du også taget på? Så kan du nemt tilmelde dig Tag på konkurrencen. Vi udlodder nemlig biografbilletter for to (inkl. 2x stor sodavand og 2x stor popcorn) i en valgfri biograf.
+                        <br>
+                        <br>
+                        <br>Det eneste, du skal gøre, er:
+                        <br>
+                        <br>- Følg Rådet for Sikker Trafiks facebookside
+                        <br>
+                        <br>- Læg dit billede op på Facebook eller Instagram
+                        <br>
+                        <br>- Tag #rådetforsikkertrafik og #tagpå
+                        <br>
+                        <br>Hvis du er den heldige vinder, kontakter vi dig på Facebook, hvor du også får tilsendt præmien.</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="container advise">
+
+            <h1>5 gode råd før du hopper på cyklen</h1>
+
+            <div class="picandtext">
+
+                <div class="portrait">
+
+                    <img class="portrait" src="pics/portrait.jpg" alt="portrait">
+
+                </div>
+
+                <div class="advisetekst">
+
+                    <p>- Hold dig fra myldretrafikken om morgenen 7:30-9:00 og igen om eftermiddagen 15:00-17:00.
+                        <br>
+                        <br>
+                        <br>- Tjek vejrudsigten inden du tager afsted. Det kan være meget glat om vinteren, som kan føre til slemme skader, hvis man falder.
+                        <br>
+                        <br>
+                        <br>- Belast ikke cyklen med alt for meget bagage. Hellere tage indkøbet over to gange.
+                        <br>
+                        <br>
+                        <br>- Vær sikker på du kan se hele vejen rundt om dig selv. Du kan få sat sidespejle op på cyklen til at hjælpe med orienteringen.
+                        <br>
+                        <br>
+                        <br>- Sidst men ikke mindst - husk cykelhjelmen!</p>
+
+                </div>
+
+            </div>
 
         </div>
 
