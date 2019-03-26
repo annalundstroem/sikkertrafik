@@ -327,14 +327,14 @@ footer img {
         margin: 0vw 5vw 0vw 0vw;
         text-align: center;
         flex-grow: 1;
-        flex-basis: 200px;
+        flex-basis: 400px;
     }
 
     .graf2 {
         margin: 0vw 0vw 0vw 5vw;
         text-align: center;
         flex-grow: 1;
-        flex-basis: 200px;
+        flex-basis: 300px;
     }
 
     .datavisualisering {
