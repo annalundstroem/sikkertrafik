@@ -318,6 +318,7 @@ footer img {
 
     .grafogtekst {
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         margin: 0vw 0vw 5vw 0vw;
     }
@@ -325,11 +326,15 @@ footer img {
     .graf1 {
         margin: 0vw 5vw 0vw 0vw;
         text-align: center;
+        flex-grow: 1;
+        flex-basis: 200px;
     }
 
     .graf2 {
         margin: 0vw 0vw 0vw 5vw;
         text-align: center;
+        flex-grow: 1;
+        flex-basis: 200px;
     }
 
     .datavisualisering {
